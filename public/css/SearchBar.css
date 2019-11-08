@@ -1,0 +1,53 @@
+.accordion{
+    padding: 0px!important;
+}
+
+.card-header {
+   padding: 0px !important;
+   background-color: white !important;
+}
+
+.card-header button{
+    width: 100% !important;
+    padding: .75rem 1.25rem;
+    text-align: left !important;
+    outline: none;
+    
+    /* padding: .375rem .75rem; */
+
+}
+
+.card-header > button:hover{
+   background-color: dodgerblue !important;
+   color: white;
+
+}
+
+.card-header > button:active{
+    outline: none;
+ 
+ }
+.search-results{
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+    max-width: 90%;
+}
+
+.dropdown{
+    max-width: 213px;
+}
+
+.dropdown > .dropdown-toggle {
+    text-align: left !important;
+    white-space: inherit !important;
+}
+
+.search-results li span{
+    cursor: pointer;
+}
+.search-results li span:hover{
+    color: dodgerblue
+}

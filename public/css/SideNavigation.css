@@ -1,0 +1,12 @@
+.dropdown-menu.show {
+    top: auto !important;
+    transform: none !important;
+}
+
+.accordion>.card {
+    overflow: inherit !important;
+}
+
+.acc-blue{
+    background-color: #309ad5 !important;
+}
